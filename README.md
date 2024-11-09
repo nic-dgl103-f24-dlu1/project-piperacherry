@@ -1,0 +1,9 @@
+Project Summary
+The site I have chosen to redesign is the Comox Valley Farmers Market website. URL: https://cvfm.ca/. The most important purpose of this website is to communicate information about when farmers' markets are happening, the types of markets, and how to find them. The target audience is individuals over the age of 30. Marketing is aimed at health-conscious individuals, generally female, and in a higher tax bracket. The overall message I want to communicate with the target audience is where/when to find farmers' markets and the benefits of attending them. The action I want users to take before leaving my website is to sign up for the newsletter for reminders. This website is inadequate for several reasons. Using Lighthouse Developer tools the Comox Valley Farmers Market Website received a 62% performance rating, a 71% accessibility rating, a 75% best practices rating, and a 92% SEO rating. This website does not follow best practices for typography, hierarchy, and affordance. It is confusing and overwhelming in parts and is not easy to read. There is no action that the user is intended to perform before they leave the page. It also received a failing score on the PageSpeed Insights analysis tool.
+
+Look and Feel
+Mood: the mood I want to convey is clean and minimalistic. I want it to be calming, positive, fresh and natural.
+Inspiration: Qualicum Farmers Market https://www.qbfarmersmarket.com/ and BC Farmers Market https://bcfarmersmarket.org/
+Color palette: Navy blue #0b132b Green #87986a Light green #cfe1b9
+Images: logo.svg,summermarket, wintermarket
+Fonts: The type face they use is unavailable on Google Fonts and the closet font to the original is a variable fonts. Additionally, the typeface they used is not cohesive with the mood I am developing for the page. Therefore, fonts used will be: Poppins, and Amatic SC
