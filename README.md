@@ -26,7 +26,7 @@ Fonts: The type face they use is unavailable on Google Fonts and the closet font
 
 ## "Cultivating goodness one stall at a time"
 
-[Fresh, multicolor vegetables](images/to/hero-veg.jpg)
+[Fresh, multicolor vegetables](images/to/large-hero.jpg)
 [Learn More About Us](markets.html)
 
 <!-- Portfolio section -->
@@ -64,7 +64,7 @@ Winter Market
 ## Never miss a market!##
 
 Sign up for our weekly newsletter
-[Sign Up](http://linksomewhere)
+[Sign Up](markets.html)
 
 <!-- Footer -->
 
@@ -78,3 +78,74 @@ Contact
 &copy; [2024][Comox Valley Farmers Market]
 
 - This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.
+
+<!----------- About Us Page ----------->
+
+<!-- Header -->
+
+[Comox Valley Farmers Market](images/to/logo)
+
+- home
+- markets
+- about us
+- become a vendor
+- contact us
+
+<!-- Company history section -->
+
+### About Us
+
+The Comox Valley Farmers’ Market Association in a not for profit society that has been bringing local food to local folks since 1992. Over the last twenty-five plus years we have grown from a seasonal Saturday market with a dozen vendors selling product off the tailgate of their pickup truck to a year-round Saturday market and two seasonal markets with over one hundred vendors selling a wide array of products that are grown, made, baked, raised or wild harvested within the Comox Valley and Strathcona Regional District.
+
+### More than a market
+
+The market is not only a place to pick up your weekly groceries but a healthy family-oriented community gathering place where you can meet and catch up over a cup of hot coffee and a cinnamon bun while listening to the live local entertainment. There are lots of opportunities to taste something new or gather ideas about spicing up an old favorite. There is something for everyone.
+
+### Our purpose is to:
+
+- To promote the economic health of the local farm community,
+- To provide quality locally grown farm products,
+- To educate the community in agricultural issues, and
+- To promote local agriculture.
+
+<!-- Video Section -->
+
+[The Comox Valley Farmers Market](https://youtu.be/qHPuSIHFMfo)
+
+<!-- Footer -->
+
+### Comox Valley Farmers Market
+
+Contact
+
+- info@cvfm.ca
+- Box 3301, Courtenay, BC, V9N 5N5
+
+&copy; [2024][Comox Valley Farmers Market]
+
+- This is a fictional website that was designed and coded as an educational exercise. It is not intended to be seen outside of the class environment. None of the content and images were approved by the business owner.
+
+<!-- Markets Page -->
+<!-- Header -->
+
+[Comox Valley Farmers Market](images/to/logo)
+
+- home
+- markets
+- about us
+- become a vendor
+- contact us
+
+<!-- Web Form -->
+
+## Never miss a market!
+
+Please fill out the form below to sign up for our weekly newsletter and reminders about future markets
+
+- First name
+- Last name
+- Email
+
+### Submit
+
+### Reset
