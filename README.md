@@ -8,7 +8,11 @@ Color palette: Navy blue #0b132b Green #87986a Light green #cfe1b9
 Images: logo.svg,summermarket, wintermarket
 Fonts: The type face they use is unavailable on Google Fonts and the closet font to the original is a variable fonts. Additionally, the typeface they used is not cohesive with the mood I am developing for the page. Therefore, fonts used will be: Poppins, and Amatic SC
 
-Markdown:
+<!--------- Markdown --------->
+
+<!-- Homepage -->
+
+<!-- Header -->
 
 [Comox Valley Farmers Market](images/to/logo)
 
@@ -18,21 +22,14 @@ Markdown:
 - become a vendor
 - contact us
 
+<!-- Hero section -->
+
 ## "Cultivating goodness one stall at a time"
 
 [Fresh, multicolor vegetables](images/to/hero-veg.jpg)
 [Learn More About Us](markets.html)
 
-### When you shop at CVFM
-
-You’re not just buying fresh, delicious, nutritionally dense food directly from local producers, you are also contributing direct and indirect dollars that benefits the local and regional economy and keeping local farmland in sustainable food production.
-
-### Our purpose
-
-- To promote the economic health of the local farm community,
-- To provide quality locally grown farm products,
-- To educate the community in agricultural issues, and
-- To promote local agriculture.
+<!-- Portfolio section -->
 
 ### Previous Markets
 
@@ -48,10 +45,28 @@ Fall Market
 Winter Market
 [Find a Winter Market](markets.html)
 
+<!-- Calendar section -->
+
+## Upcoming Markets##
+
+| Date   | Market Location                    |
+| ------ | ---------------------------------- |
+| 16 Nov | Native Sons Hall - Saturday Market |
+| 23 Nov | Native Sons Hall - Saturday Market |
+| 30 Nov | Native Sons Hall - Saturday Market |
+| 07 Dec | Native Sons Hall - Saturday Market |
+| 14 Dec | Native Sons Hall - Saturday Market |
+
+[Directions to a market](markets.html)
+
+<!-- Call to action -->
+
 ## Never miss a market!##
 
 Sign up for our weekly newsletter
 [Sign Up](http://linksomewhere)
+
+<!-- Footer -->
 
 ### Comox Valley Farmers Market
 
