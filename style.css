@@ -29,3 +29,69 @@ a{
 .cards img{
     width: 50vw;
 }
+
+/* Header */
+.nav-items{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  display: none;
+  align-items: center;
+}
+nav ul li{
+  padding: 8px 0;
+}
+
+.show-items{
+  display: flex;
+}
+
+nav.toggle{
+  align-self: flex-end;
+  position:absolute;
+  cursor: pointer;
+  top: 32px;
+}
+.logoimg{
+    width: 40vw;
+}
+
+
+
+
+
+
+/* Medium devices (portrait tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    nav .menu-label {
+      display: none;
+    }
+  
+    nav ul {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    nav ul li {
+      padding-right: 8px;
+    }
+  
+    nav .toggle {
+      display: none;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    nav ul,
+    .container {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  }
