@@ -4,9 +4,9 @@ The site I have chosen to redesign is the Comox Valley Farmers Market website. U
 Look and Feel
 Mood: the mood I want to convey is clean and minimalistic. I want it to be calming, positive, fresh and natural.
 Inspiration: Qualicum Farmers Market https://www.qbfarmersmarket.com/ and BC Farmers Market https://bcfarmersmarket.org/
-Color palette: Navy blue #0b132b Green #87986a Light green #cfe1b9
+Color palette: Navy blue #0b132b Green #87986a Light green #cfe1b9 yellow #f9e784
 Images: logo.svg,summermarket, wintermarket
-Fonts: The type face they use is unavailable on Google Fonts and the closet font to the original is a variable fonts. Additionally, the typeface they used is not cohesive with the mood I am developing for the page. Therefore, fonts used will be: Poppins, and Amatic SC
+Fonts: The type face they use is unavailable on Google Fonts and the closet font to the original is a v nariable fonts. Additionally, the typeface they used is not cohesive with the mood I am developing for the page. Therefore, fonts used will be: Poppins, and Amatic SC
 
 <!--------- Markdown --------->
 

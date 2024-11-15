@@ -39,15 +39,19 @@ a{
 nav ul{
   list-style-type: none;
   margin: 0;
-  padding: 0;
   flex-direction: column;
   display: none;
   align-items: center;
+  justify-content: center;
+  flex-grow: 1;
 }
 nav ul li{
-  padding: 8px 0;
+  padding: 0 10vw;
+  margin-left: 0px;
 }
-
+nav a{
+    color: black;
+}
 .show-items{
   display: flex;
 }
@@ -60,8 +64,47 @@ nav.toggle{
 }
 .logoimg{
     width: 40vw;
+    margin-right: -100px;
 }
-
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #cfe1b9;
+}
+header{
+    margin-bottom: -50px;
+}
+/* Hero Section */
+.hero{
+    background-image: url(images/manel-sean-Rl_K7Z-N5ZQ-unsplash.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    padding: 0;
+    margin: 0;
+    
+}
+.hero h2{
+    color: white;
+    font-size: 6rem; 
+    padding-top: 40px;
+    text-align: center;
+    font-weight: 800;
+}
+.hero a{
+    color: #f9e784;
+    text-align: center;
+    font-size: 2rem;
+}
+/* Portfolio Section */
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
@@ -85,6 +128,9 @@ nav.toggle{
     nav .toggle {
       display: none;
     }
+    nav ul li{
+        text-decoration: underline;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -93,5 +139,11 @@ nav.toggle{
     .container {
       width: 1200px;
       margin: 0 auto;
+    }
+    .logoimg{
+        margin-right: -200px;
+    }
+    nav ul li{
+        text-decoration: underline;
     }
   }
