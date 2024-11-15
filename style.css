@@ -155,7 +155,18 @@ th{
     font-size: 1.8rem;
     color: white;
 }
-
+/* Footer Section */
+    .headerfooter{
+        text-align: center;
+    }
+    .headerfooter a{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+.footer2{
+    color: grey;
+    font-size: 1.3rem;
+}
 
 
 
@@ -200,6 +211,12 @@ th{
     .upcoming-markets h2{
         margin-left: 10vw;
     }
+    .navfooter .nav-links{
+        display: flex;
+        justify-content: space-around;
+        margin:20px 0px;
+    }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -224,5 +241,10 @@ th{
         width: 30vw;
         padding-right: 20px;
         padding-left: 20px;
+    }
+    .navfooter .nav-links{
+        display: flex;
+        justify-content: space-around;
+        margin:20px 0;
     }
   }
