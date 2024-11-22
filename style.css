@@ -142,6 +142,7 @@ th{
     margin-top: 20px;
     background-color: #87986a;
     padding: 30px;
+    margin-bottom: -50px;
 }
 .calltoaction h2{
     font-weight: 400;
@@ -159,10 +160,15 @@ th{
 /* Footer Section */
     .headerfooter{
         text-align: center;
+        background-color:#344e41;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 50px;
     }
     .headerfooter a{
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 0px;
+        margin-bottom: 15px;
+        color: white;
     }
 .footer2{
     color: grey;
@@ -229,6 +235,16 @@ input[type="submit"]:hover{
 .wrapper-button{
     display: flex;
     justify-content: space-between;
+}
+iframe{
+    max-width: 70vw;
+    margin-top: 50px;
+}
+.form-map-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Medium devices (portrait tablets, 768px and up) */
@@ -306,5 +322,14 @@ input[type="submit"]:hover{
         display: flex;
         justify-content: space-around;
         margin:20px 0;
+    }
+    .form-map-wrapper{
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        margin-right: 20px;
+    }
+    .wrapper-form{
+        padding: 20px
     }
   }
