@@ -169,9 +169,51 @@ th{
     color: grey;
     font-size: 1.3rem;
 }
+/* ------------------MARKETS PAGE------------------ */
+input[type="reset"]{
+    color: black;
+    background-color: #ced0cc;
+    padding: 12px 20px;
+    border:none;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="reset"]:hover{
+    font-weight: bold;
+}
 
+input[type="submit"]{
+    background-color: #f9e784;
+    color: black;
+    padding: 12px 20px;
+    border:none;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    font-weight: bold;
+}
+.wrapper-form{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    margin-top: 50px;
+}
 
-
+.wrapper-button{
+    display: flex;
+    justify-content: space-between;
+}
 
 /* Medium devices (portrait tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
