@@ -33,9 +33,35 @@
           <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
         </nav>
       </div>
+      <section>
+        <div class="market-hero">
+            <h2>Find a Market</h2>
+        </div>
+<!-- Cards Section -->
+<section>
+    <h2>Upcoming Farmers Markets</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="images/rosie-de-la-cruz-yV4edl7iEb8-unsplash.jpg" alt="Squash"/>
+        <p>9 AM -1 PM April 13, 2024 to October 12, 2024; Comox Valley Exhibition</p>
+      </div>
+      <div class="card">
+        <img src="images/julia-kadel-GFfmwQWwGaY-unsplash.jpg" alt="Purple Cabage"/>
+        <p>9 AM- 1 PM October 19, 2024 to December 21, 2024; Native Sons Hall</p>
+      </div>
+      <div class="card">
+        <a href="markets.html">
+        <img src="images/lars-blankers-pmS8XSz5NU0-unsplash.jpg" alt="White onions" />
+        </a>
+        <p>9 AM- 1 PM January 11, 2025 – April 5, 2025; Native Sons Hall</p>
+      </div>
+    </div>
+</section>
+<!-- Form Section -->
+      </section>
     </header>
     <div class="wrapper-form">
-        <h2>Never miss a market!</h2>
+        <h3>Never miss a market!</h3>
         <p>Sign up for our weekly newsletter</p>
         <form method="post" action="#">
             <label for="fname">First Name</label>
@@ -60,5 +86,32 @@
             </div>
         </form>
     </div>
+    <section class="headerfooter">
+        <nav class="navfooter">
+          <div class="nav-links">
+          <a href="#">Contact</a>
+          <a href="#">Features</a>
+          <a href="#">About</a>
+          <a href="#">Pricing</a>
+          </div>
+        </nav>
+      </section>
+      <footer>
+        <div class="footer2">
+          <p>&copy; 2024 Comox Valley Farmers Market</p>
+          <p>
+            <i>"This is a fictional website that was designed and coded as an
+            educational exercise. It is not intended to be seen outside of the
+            class environment. None of the content and images were approved by the
+            business owner."</i>
+          </p>
+        </div>
+      </footer>
+      <script>
+        function showNav() {
+          var element = document.getElementById("nav-items");
+          element.classList.toggle("show-items");
+        }
+      </script>
   </body>
 </html>

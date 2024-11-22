@@ -13,7 +13,6 @@ body{
     font-weight: 400;
     font-style: normal;
     font-size: 1.6rem;
-    max-width: 1500px;
 }
 h1, h2, h3{
     font-family: "Amatic SC", serif;
@@ -170,6 +169,24 @@ th{
     font-size: 1.3rem;
 }
 /* ------------------MARKETS PAGE------------------ */
+.market-hero{
+    background-image: url(images/manel-sean-Rl_K7Z-N5ZQ-unsplash.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
+    padding: 0;
+    margin: 0;
+    margin-top: -50px;
+}
+.market-hero h2{
+    color: white;
+    font-size: 6rem; 
+    padding-top: 80px;
+    text-align: center;
+    font-weight: 800;
+}
+
 input[type="reset"]{
     color: black;
     background-color: #ced0cc;
@@ -206,7 +223,6 @@ input[type="submit"]:hover{
 .wrapper-form{
     max-width: 800px;
     margin: 0 auto;
-    background-color: #f2f2f2;
     margin-top: 50px;
 }
 
