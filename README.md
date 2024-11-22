@@ -145,7 +145,17 @@ Please fill out the form below to sign up for our weekly newsletter and reminder
 - First name
 - Last name
 - Email
+- I consent to recieving promotional marketing emails from CVFM
+- I consent to recieving notifications about upcoming markets from CVFM
 
 ### Submit
 
 ### Reset
+
+<!-- <Map Section> -->
+
+[Click here to view content](https://maps.app.goo.gl/K7hFMp2sG3ia5jg76)
+
+<!-- <Footer> -->
+
+Same as homepage
