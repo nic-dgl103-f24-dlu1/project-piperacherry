@@ -256,6 +256,17 @@ iframe{
     justify-content: center;
     align-items: center;
 }
+/* -------About Page-------- */
+iframe{
+    width: 80vw;
+    height: calc(80vw * 9 / 16);
+/* calc(80vw * 9 / 16) from mdn web docs calc() */
+}
+.video-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* Medium devices (portrait tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
