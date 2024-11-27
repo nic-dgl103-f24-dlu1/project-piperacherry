@@ -102,6 +102,7 @@ header{
     color: #f9e784;
     text-align: center;
     font-size: 2rem;
+    margin-top: -50px;
 }
 /* Portfolio Section */
 .cards{
@@ -268,6 +269,12 @@ iframe{
     justify-content: center;
 }
 
+.about_image img{
+    width: 50vw;
+    margin-left: 25vw;
+    margin-bottom: -50px;
+}
+
 /* Medium devices (portrait tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     nav .menu-label {
@@ -352,5 +359,12 @@ iframe{
     }
     .wrapper-form{
         padding: 20px
+    }
+    .about_image img{
+        float: right;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 20px;
+        width: 30vw;
     }
   }
