@@ -82,7 +82,7 @@ header{
 }
 /* Hero Section */
 .hero{
-    background-image: url(images/manel-sean-Rl_K7Z-N5ZQ-unsplash.png);
+    background-image: url(images/manel-sean-Rl_K7Z-N5ZQ-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -91,7 +91,7 @@ header{
     margin: 0;
     
 }
-.hero h2{
+.hero h1{
     color: white;
     font-size: 6rem; 
     padding-top: 40px;
@@ -187,7 +187,7 @@ th{
 }
 /* ------------------MARKETS PAGE------------------ */
 .market-hero{
-    background-image: url(images/manel-sean-Rl_K7Z-N5ZQ-unsplash.png);
+    background-image: url(images/manel-sean-Rl_K7Z-N5ZQ-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -196,7 +196,7 @@ th{
     margin: 0;
     margin-top: -50px;
 }
-.market-hero h2{
+.market-hero h1{
     color: white;
     font-size: 6rem; 
     padding-top: 80px;
@@ -367,4 +367,5 @@ iframe{
         margin-bottom: 20px;
         width: 30vw;
     }
+
   }
