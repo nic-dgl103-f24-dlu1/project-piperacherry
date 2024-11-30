@@ -100,10 +100,10 @@ header{
     font-weight: 800;
 }
 .hero a{
-    color: #f9e784;
+    color:#f9e784;
     text-align: center;
     font-size: 2rem;
-    margin-top: -50px;
+    margin-top: -10px;
 }
 /* Portfolio Section */
 .cards{
