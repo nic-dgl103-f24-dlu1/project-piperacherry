@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Comox Valley Farmers Market</title>
-    <link rel="stylesheet" href="style.css" >
-    <link rel="preconnect" href="https://fonts.googleapis.com" >
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
-    >
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    >
+    />
   </head>
   <body>
     <header>
@@ -23,7 +23,7 @@
           src="images/ComoxValleyFarmersMarket-Horizontal-Logo.svg"
           alt="CVFM logo"
           class="logoimg"
-        >
+        />
         <nav>
           <ul id="nav-items">
             <li><a href="index.html">Home</a></li>
@@ -35,91 +35,142 @@
       </div>
       <section>
         <div class="market-hero">
-            <h1>Find a Market</h1>
+          <h1>Find a Market</h1>
         </div>
-<!-- Cards Section -->
-<section>
-    <h2>Upcoming Farmers Markets</h2>
-    <div class="cards">
-      <div class="card">
-        <img src="images/rosie-de-la-cruz-yV4edl7iEb8-unsplash.jpg" alt="Squash">
-        <p>9 AM -1 PM April 13, 2024 to October 12, 2024; Comox Valley Exhibition</p>
-      </div>
-      <div class="card">
-        <img src="images/julia-kadel-GFfmwQWwGaY-unsplash.jpg" alt="Purple Cabage">
-        <p>9 AM- 1 PM October 19, 2024 to December 21, 2024; Native Sons Hall</p>
-      </div>
-      <div class="card">
-        <a href="markets.html">
-        <img src="images/lars-blankers-pmS8XSz5NU0-unsplash.jpg" alt="White onions" >
-        </a>
-        <p>9 AM- 1 PM January 11, 2025 – April 5, 2025; Native Sons Hall</p>
-      </div>
-    </div>
-</section>
-<!-- Form Section -->
+        <!-- Cards Section -->
+        <section>
+          <h2>Upcoming Farmers Markets</h2>
+          <div class="cards">
+            <div class="card">
+              <img
+                src="images/rosie-de-la-cruz-yV4edl7iEb8-unsplash.jpg"
+                alt="Squash"
+              />
+              <p>
+                9 AM -1 PM April 13, 2024 to October 12, 2024; Comox Valley
+                Exhibition
+              </p>
+            </div>
+            <div class="card">
+              <img
+                src="images/julia-kadel-GFfmwQWwGaY-unsplash.jpg"
+                alt="Purple Cabage"
+              />
+              <p>
+                9 AM- 1 PM October 19, 2024 to December 21, 2024; Native Sons
+                Hall
+              </p>
+            </div>
+            <div class="card">
+              <a href="markets.html">
+                <img
+                  src="images/lars-blankers-pmS8XSz5NU0-unsplash.jpg"
+                  alt="White onions"
+                />
+              </a>
+              <p>
+                9 AM- 1 PM January 11, 2025 – April 5, 2025; Native Sons Hall
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Form Section -->
       </section>
     </header>
     <div class="form-map-wrapper">
-    <div class="wrapper-form">
-      <section id="never-miss-a-market">
-        <h3>Never miss a market!</h3>
-      </section>
+      <div class="wrapper-form">
+        <section id="never-miss-a-market">
+          <h3>Never miss a market!</h3>
+        </section>
         <p>Sign up for our weekly newsletter</p>
         <form method="post" action="#">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Ex: Margaret">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Ex: Margaret"
+          />
 
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Ex: Barnes">
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Ex: Barnes"
+          />
 
-            <label for="email">Email <span class="label-required">*(required)</span></label>
-            <input type="email" id="email" name="email" placeholder="Ex: barnes@gmail.com" required>
+          <label for="email"
+            >Email <span class="label-required">*(required)</span></label
+          >
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Ex: barnes@gmail.com"
+            required
+          />
 
-            <fieldset>
-                <legend>Select the following:</legend>
-                <input type="radio" id="market" name="promotion" value="recieve">
-                <label for="market">I consent to recieving promotional marketing emails from CVFM</label><br>
-                <input type="radio" id="reminder" name="notify" value="accept">
-                <label for="reminder">I consent to recieving notifications about upcoming markets from CVFM</label><br>
-            </fieldset>
-            <div class="wrapper-button">
-                <input type="reset" value="reset">
-                <input type="submit" value="submit">
-            </div>
+          <fieldset>
+            <legend>Select the following:</legend>
+            <input type="radio" id="market" name="promotion" value="recieve" />
+            <label for="market"
+              >I consent to recieving promotional marketing emails from
+              CVFM</label
+            ><br />
+            <input type="radio" id="reminder" name="notify" value="accept" />
+            <label for="reminder"
+              >I consent to recieving notifications about upcoming markets from
+              CVFM</label
+            ><br />
+          </fieldset>
+          <div class="wrapper-button">
+            <input type="reset" value="reset" />
+            <input type="submit" value="submit" />
+          </div>
         </form>
-    </div>
-    <section id="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2580.958862343093!2d-125.0001969!3d49.6927475!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548813f522303679%3A0x83eb27f1cdb6dfe8!2sIs%20Native%20Sons%20Hall%2C%20360%20Cliffe%20Ave%2C%20Courtenay%2C%20BC%20V9N%202H9!5e0!3m2!1sen!2sca!4v1732243026177!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
+      </div>
+      <section id="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2580.958862343093!2d-125.0001969!3d49.6927475!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548813f522303679%3A0x83eb27f1cdb6dfe8!2sIs%20Native%20Sons%20Hall%2C%20360%20Cliffe%20Ave%2C%20Courtenay%2C%20BC%20V9N%202H9!5e0!3m2!1sen!2sca!4v1732243026177!5m2!1sen!2sca"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
     </div>
     <section class="headerfooter">
       <h6>CVFM Footer</h6>
-        <nav class="navfooter">
-          <div class="nav-links">
+      <nav class="navfooter">
+        <div class="nav-links">
           <a href="#">Contact</a>
           <a href="#">Features</a>
           <a href="#">About</a>
           <a href="#">Pricing</a>
-          </div>
-        </nav>
-      </section>
-      <footer>
-        <div class="footer2">
-          <p>&copy; 2024 Comox Valley Farmers Market</p>
-          <p>
-            <i>"This is a fictional website that was designed and coded as an
-            educational exercise. It is not intended to be seen outside of the
-            class environment. None of the content and images were approved by the
-            business owner."</i>
-          </p>
         </div>
-      </footer>
-      <script>
-        function showNav() {
-          var element = document.getElementById("nav-items");
-          element.classList.toggle("show-items");
-        }
-      </script>
+      </nav>
+    </section>
+    <footer>
+      <div class="footer2">
+        <p>&copy; 2024 Comox Valley Farmers Market</p>
+        <p>
+          <i
+            >"This is a fictional website that was designed and coded as an
+            educational exercise. It is not intended to be seen outside of the
+            class environment. None of the content and images were approved by
+            the business owner."</i
+          >
+        </p>
+      </div>
+    </footer>
+    <script>
+      function showNav() {
+        var element = document.getElementById("nav-items");
+        element.classList.toggle("show-items");
+      }
+    </script>
   </body>
 </html>
